@@ -3,6 +3,7 @@
 
 /* Fit the approved editorial copy within the established visual language. */
 .hero-intro h1 { font-size: clamp(49px, 5.1vw, 85px); }
+.hero-location { position: absolute; z-index: 5; top: 14%; left: 50%; width: 52%; transform: translateX(-50%); text-align: center; pointer-events: none; }
 .hero-summary { max-width: 610px; margin-inline: auto; }
 .hero-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 28px; }
 .hero-actions .hero-link { gap: 16px; }
